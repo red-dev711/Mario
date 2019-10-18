@@ -1,3 +1,5 @@
+// Program to make pyramid type structures of height passed by the user.
+
 #include <cs50.h>
 #include <stdio.h>
 
@@ -16,15 +18,19 @@ int main(void)
         {
             printf(" ");
         }
+        
         for(int j=0; j<=i; j++)
         {
             printf("#");
         }
+        
         printf("\t");
+        
         for(int j=0; j<=i; j++)
         {
             printf("#");
         }
+        
         printf("\n");
     }
 }
